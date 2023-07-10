@@ -41,9 +41,11 @@ Please follow the instructions in [demo.ipynb](demo.ipynb) to play with our mode
 ### Pre-training
 If you are interested in training the model yourself, please follow the instructions in [Pre-training Instructions](scripts/pretrain/README.md).
 
-### Pre-training Trajectory
+### Model Release
 
-To encourage research in developmental machine language acquisition, we will release the training trajectory of our model through [HuggingFace Space](https://huggingface.co/spaces/sled-umich/OctoBERT-Trajectories), which include a sequence of checkpoints over time during the pre-training process. 
+To encourage research in developmental machine language acquisition, we release the training trajectory of our model through [HuggingFace Space](https://huggingface.co/spaces/sled-umich/OctoBERT-Trajectories), which include a sequence of checkpoints over time during the pre-training process. 
+
+We will also release a fully developed model through [HuggingFace Space](https://huggingface.co/spaces/sled-umich/OctoBERT), which is pretrained upon the complete grounding dataset of [MDETR](https://github.com/ashkamath/mdetr/blob/main/.github/pretrain.md). Current demo holds a placeholder model. Stay tuned :-)
 
 ### Evaluation
 
