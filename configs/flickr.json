@@ -1,0 +1,17 @@
+{
+    "combine_datasets": [
+        "flickr"
+    ],
+    "combine_datasets_val": [
+        "flickr"
+    ],
+    "coco_path": "",
+    "vg_img_path": "",
+    "flickr_img_path": "/PATH_TO/flickr30k-images/",
+    "flickr_ann_path": "/PATH_TO/preprocessed_annotations/",
+    "flickr_dataset_path": "/PATH_TO/Flickr30kEntities/",
+    "refexp_ann_path": "",
+    "gqa_ann_path": "",
+    "refexp_dataset_name": "all",
+    "GT_type": "separate"
+}
