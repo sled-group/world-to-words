@@ -56,13 +56,19 @@ The GOVA dataset is available on [HuggingFace Dataset](https://huggingface.co/da
 If you find our work useful, please give us a star and cite as follows :)
 
 ```bibtex
-@misc{ma2023worldtowords,
-      title={World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models}, 
-      author={Ziqiao Ma and Jiayi Pan and Joyce Chai},
-      year={2023},
-      eprint={2306.08685},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{ma-etal-2023-world,
+    title = "World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models",
+    author = "Ma, Ziqiao  and
+      Pan, Jiayi  and
+      Chai, Joyce",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.31",
+    pages = "524--544",
+    abstract = "The ability to connect language units to their referents in the physical world, referred to as grounding, is crucial to learning and understanding grounded meanings of words. While humans demonstrate fast mapping in new word learning, it remains unclear whether modern vision-language models can truly represent language with their grounded meanings, and how grounding may further bootstrap new word learning. To this end, we introduce Grounded Open Vocabulary Acquisition (GOVA) to examine grounding and bootstrapping in open-world language learning. As an initial attempt, we propose World-to-Words (W2W), a novel visually-grounded language model by pre-training on image-text pairs highlighting grounding as an objective. Through extensive experiments and analysis, we demonstrate that W2W is a more coherent and fast grounded word learner, and that the grounding ability acquired during pre-training helps the model to learn unseen words more rapidly and robustly.",
 }
 ```
 ## Acknowledgement
