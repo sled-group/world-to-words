@@ -24,7 +24,7 @@ Clone our repository and create the python environment, you can install the requ
 # either
 pip install -r requirements.txt
 # or after you install pytorch
-pip install tqdm transformers timm wandb prettytable spacy pycocotools einops scipy
+pip install transformers==4.30 tqdm timm wandb prettytable spacy pycocotools einops scipy
 ```
 ### Inference
 
